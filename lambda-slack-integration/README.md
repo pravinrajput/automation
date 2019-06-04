@@ -72,11 +72,11 @@ Just like CPU Utilization, we can send slack notification of Memory, Disk & Site
 
 #### Memory-Utilization
 
-![Memory](https://pravinrajput.files.wordpress.com/2019/06/Memory-slack-notification.png)
+![Memory](https://pravinrajput.files.wordpress.com/2019/06/memory-slack-notification.png)
 
 #### Disk-Utilization
 
-![Disk](https://pravinrajput.files.wordpress.com/2019/06/Disk-slack-notification.png)
+![Disk](https://pravinrajput.files.wordpress.com/2019/06/disk-slack-notification.png)
 
 #### Healthcheck
 

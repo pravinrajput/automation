@@ -72,7 +72,6 @@ def lambda_handler(event, context):
     if 'disk' in alarm_name:
         mount_point = message['Trigger']['Dimensions'][0]['value']
         instance_id = message['Trigger']['Dimensions'][1]['value']
-        #slack_message = "%s state is now %s: %s and instance-id: %s, mount_point %s" % (alarm_name, new_state, reason, instance_id, mount_point)
         slack_message = {
             "text": "",
              "attachments": [
@@ -106,7 +105,6 @@ def lambda_handler(event, context):
 
     else:
         instance_id = message['Trigger']['Dimensions'][0]['value']
-        #slack_message = "%s state is now %s: %s and instance-id: %s" % (alarm_name, new_state, reason, instance_id)
         slack_message = {
             "text": "",
              "attachments": [
